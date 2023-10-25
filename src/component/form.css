@@ -1,0 +1,68 @@
+.continer{
+padding:30px;
+    display: flex;
+    flex-direction: column;
+    width: 30em;
+   min-height:100%;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 20px 61px 0 rgba(65, 62, 101, 0.14);
+}
+form{
+    display: flex;
+    flex-direction: column;
+   align-items: center;
+
+padding: 1em;
+margin: 30px 0px;
+border-radius: 0.25em;
+
+color: #9c9aaa;
+}
+
+input {
+   
+ width:70%;
+ padding: 1em;
+    margin: 10px 0px;
+    border-radius: 0.25em;
+    
+    color: #9c9aaa;
+}
+.Sign-Up{
+    text-align: center;
+
+text-transform: uppercase;
+}
+/* check box */
+input[type=checkbox], input[type=radio] {
+    width: 13px;
+    height: 13px;
+    margin: 15px;
+}
+button{
+    border: none;      
+    padding: 16px 90px;      
+    text-align: center;      
+    display: inline-block;      
+    font-size: 16px;      
+    margin: 4px 2px;      
+    transition-duration: 0.4s;      
+    cursor: pointer;      
+    text-decoration: none;      
+    text-transform: uppercase;
+    background-color: #f04037;
+    
+    color: #fff;
+}
+button:hover {      
+    background-color: #008CBA;      
+    color: white; 
+}
+.account{
+text-align: center;
+    }
+    .account span{
+  
+        color: #008CBA;
+    }
