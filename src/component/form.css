@@ -19,7 +19,9 @@ border-radius: 0.25em;
 
 color: #9c9aaa;
 }
-
+.error{
+    color: #f04037;
+}
 input {
    
  width:70%;
