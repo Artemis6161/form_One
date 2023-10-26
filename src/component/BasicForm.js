@@ -82,7 +82,7 @@ console.log(values);
       />
       {errors.password && touched.password && (
      
-        <div style={{ color: "#B2484D", fontSize: ".8rem" }}>
+        <div style={{ color: "#F44336", fontSize: ".8rem" }}>
         <p className="error">{errors.password}</p>
   </div>
       )}
