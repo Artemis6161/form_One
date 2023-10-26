@@ -19,4 +19,9 @@ export const basicSchema = yup.object().shape({
     .boolean()
     .oneOf([true], "Please accept the terms of service"),
 });
+{formik.errors["img"] && formik.touched["img"] && (
+  <div style={{ color: "#B2484D", fontSize: ".8rem" }}>
+    {formik.errors.img}
+  </div>
+)}
   
